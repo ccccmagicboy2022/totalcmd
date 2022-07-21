@@ -1,0 +1,115 @@
+English
+; For F4Menu ver 0.16
+; Creator/Translator: Shanny (shannycn@gmail.com)
+; Date: 2009-05-24
+
+; Common words
+0=Yes
+1=No
+2=OK
+3=Cancel
+4=&Apply
+5=Close
+6=Name
+7=Path
+8=Parameters
+9=Mode
+10=Extensions
+11=Icon
+12=Window
+13=Executable files
+14=All files
+
+; Main Menu
+15=Other Program...
+16=Settings...
+17=About F4Menu...
+
+; Common words 2
+18=Start Path
+
+; Context Menu
+20=&Associate and Open
+21=&Only Open
+22=Set as &Default Editor
+23=&Dissociate
+24=&Remove
+25=&Modify...
+26=Sort by &Name
+
+; Modify Dialog
+30=F4Menu Modify Editor
+31=&Name
+32=&Path
+33=Para&meters
+34=&Open Mode
+35=&Extensions
+36=&Icon
+37=0 - Open each file separately
+38=1 - Open all files as a list
+39=&Start Path
+
+; Settings Dialog
+40=F4Menu Settings
+41=O&ptions
+42=&Add
+43=&Modify
+44=&Remove
+45=File
+46=List
+
+; About Dialog
+47=About F4Menu
+
+; Options Dialog
+50=F4Menu Options
+51=&About
+52=&Language
+53=&Maximum number of open files (0-31)
+54=&Selection menu appears at the position of
+55=Current file
+56=Mouse cursor
+57=Show &tooltips on selection menu
+58=Run mode <-> Launch key
+59=&Foreground mode, always show selection menu
+60=&Background mode, only show if necessary
+61=Action after cancelling selection menu
+62=Break and open the &processed files
+63=B&reak and cancel all selections
+64=S&kip current file and continue with next
+65=&Unselect opened files
+66=Tooltips only
+67=Editor Info only
+68=Tooltips and Editor Info
+
+; ToolTips
+70=Opened by system associated application
+71=Default Editor
+72=Ctrl + Enter/Click: associate and open\nEnter/Click: only open
+73=Space: open with the first matching editor
+74=Drag and drop to adjust item
+75=Right mouse click: show the context menu
+76=Choose a new program for this extension
+
+; Messages
+80=Please use the space-separated filenames as F4Menu's parameter.\n\nOr use Total Commander shortcut key F4 to launch F4Menu.\nYou can set it via TC Configuration -> Options -> Edit/View -> Editor for F4.
+81=Please select an item.
+82=Do you really want to delete this item?
+83=Do you really want to delete all these %d items?
+84=Please Check the editor name.
+85=Cannot find the specified editor, please check the path.
+86=Too many files selected, do you want to open all of them?\n\nYes to open all selected files.\nNo to only open the first %d files.
+87=Cannot find the editor %d "%s", \n\nplease choose a new editor for "*.%s" files.
+88=The editor "%s" already exists.\nDo you want to update its existing configuration?\n\nYes to load and update the existing item.\nNo to create a new item with the same path.
+89=Cannot find the default editor, please set it again.
+
+; Modify Dialog 2
+90=&Window
+91=0 - Normal
+92=1 - Maximize
+93=2 - Minimize
+
+; Option Dialog 2
+100=Right of current file
+101=Opposite panel
+102=Center window

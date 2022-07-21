@@ -1,0 +1,475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Total Commander extDir - User manual</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="User manual (help) for Total Commander extDir utility" />
+<meta name="author" content="Bluestar" />
+<style type="text/css">
+body {
+	background-color: #FFFFFF;
+	font-family: "Tahoma", "Geneva", "sans-serif";
+	font-size: 13px;
+	background-color: #FFFFFF;
+}
+ul{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#extDir01{
+	font-size: 13px;
+	font-family: "Tahoma", "Geneva", "sans-serif";
+}
+#extDir02{
+	font-size: 20px;
+	font-family: "Tahoma", "Geneva", "sans-serif";
+	color: #6EA5F2;
+}
+#content {
+	width: 520px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+.UserManual {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #000000;
+	font-size: 17px;
+}
+.UserManual_big {
+	font-weight: bold;
+	color: #6EA5F2;
+	font-size: 24px;
+}
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+a:link {
+	color: #156ADD;
+	text-decoration: none;
+}
+a:visited {
+	color: #156ADD;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #156ADD;
+}
+a:active {
+	color: #156ADD;
+	text-decoration: none;
+	background-color: #06F;
+}
+ul{
+	margin-top:8px;
+	margin-bottom:8px;
+}
+li span{
+	color: #000;
+}
+</style>
+</head>
+
+<body>
+<div id="content">
+  <div style="text-align: justify">
+  <p><span style="font-weight: bold; font-size: 48px; color: #438EEB; background-color:#FFFFFF;"><a href="#">extDir</a></span> <span style="color: #999">for Total Commander </span><span style="color: #333333">7.00<strong>+</strong></span><br />
+    <span style="color: #000">Extended directory creator utility for Total Commander</span>.<br />
+    <span style="font-size: 10px">Copyright  &copy;</span> <span style="font-size: 10px; color: #F60;">2011-2013</span> <span style="font-size: 10px">Bluestar</span></p>
+<hr />
+  <p>&nbsp;</p>
+  <p>Welcome to the <span id="extDir01"><span style="color: #000">Total Commander</span><strong> extDir </strong></span>utility's User Manual.  </p>
+<p>I hope the information provided here will assist you in using the extDir utility. If you have a question that isn't answered in this manual, feel free to check the utility's topic on  <a href="http://ghisler.ch/board/viewtopic.php?t=31532" target="_blank">ghisler.ch official forum</a> to look for answers, or to ask for help in the forum if the answer can't be found.</p>
+<p>Also please check the <a href="readme.txt" target="_blank">readme.txt</a> file for license, translation, contact &amp; other informations.</p>
+  </div>
+  <p class="UserManual"><strong>User Manual</strong> contents</p>
+  <ul>
+    <li><strong>Chapter 1</strong>: <b><a href="#chapter_1_introduction" target="_self">Introduction to extDir</a></b>
+<ul>
+        <li><a href="#about" target="_self">About the utility</a></li>
+        <li><a href="#features" target="_self">Main features</a></li>
+        <li><a href="#system_requirements" target="_self">System requirements</a></li>
+      </ul>
+    </li>
+    <li><strong>Chapter 2</strong>: <strong><a href="#chapter_2_installation" target="_self">Installation Guide</a></strong>
+      <ul>
+        <li><a href="#installation_important_notice" target="_self">Important notice</a></li>
+        <li><a href="#installation_prerequisites" target="_self">Other prerequisites</a></li>
+        <li><a href="#installation_automatic" target="_self">Installation guide (automatic)</a></li>
+        <li><a href="#installation_manual" target="_self">Installation guide (manual)</a></li>
+      </ul>
+    </li>
+    <li><strong>Chapter 3</strong>: <b><a href="#chapter_3_basic_functions" target="_self">Basic Functions (Normal mode)</a></b>
+      <ul>
+    <li><a href="#create_a_single_directory" target="_self">Create a single directory</a></li>
+    <li><a href="#create_a_single_directory_with_subdirs" target="_self">Create a single directory with subdirectories</a></li>
+    <li><a href="#create_multiple_dirs_with_separator" target="_self">Create multiple directories with separator</a></li>
+    <li><a href="#templates_and_replacements">Templates and Replacements (variables)</a></li>
+    <li><a href="#modifiers">Modifiers (space2Dot and its invert, changeCase, etc.)</a></li>
+    <li><a href="#attributes" target="_self">Setting the directory's attributes</a></li>
+    <li><a href="#additional_options" target="_self">Additional options</a></li>
+    </ul>
+    </li>
+    <li><strong>Chapter 4</strong>: <a href="#chapter_4_extended_mode" target="_self"><strong>Extended Functions (Extended mode)</strong></a>
+<ul>
+        <li><a href="#createmultipledir" target="_self">Create multiple directories</a></li>
+        <li><a href="#createmultipledir_subdir" target="_self">Create multiple directories with more subdirectories</a></li>
+        <li><a href="#loadfromfile" target="_self">Loading directory list from a text file (.txt)</a></li>
+      </ul>
+    </li>
+    <li><strong>Chapter 5</strong>: <a href="#chapter_5_batch_mode"><strong>Batch Functions (Batch mode)</strong></a>
+<ul>
+        <li><a href="#batch_instructions" target="_self">Instructions (setting parameters, prefix &amp; suffix, etc.)</a></li>
+        <li><a href="#batch_multiple_subdirs" target="_self">Create multiple  directories with more subdirectories (using Suffix)</a></li>
+      </ul>
+    </li>
+    <li><strong>Chapter 6</strong>: <a href="#chapter_6_configuration" target="_self"><strong>Configuration (Settings)</strong></a>
+<ul>
+        <li><a href="#config_general" target="_self">General options</a></li>
+        <li><a href="#config_window" target="_self">Window options</a></li>
+        <li><a href="#config_language" target="_self">Language options</a></li>
+        <li><a href="#config_advanced" target="_self">Advanced options</a></li>
+      </ul>
+    </li>
+    <li><strong>Chapter 7</strong>: <a href="#chapter_7_hotkeys" target="_self"><strong>Hotkeys</strong></a>
+<ul>
+        <li><a href="#hotkey_list" target="_self">Currently available hotkey list</a></li>
+      </ul>
+    </li>
+    <li><strong>Chapter 8</strong>: <a href="#chapter_8_config_parameters" target="_self"><strong>User-defined configuration file (.ini) parameters</strong></a>
+<ul>
+        <li><a href="#cfg_parameter_list" target="_self">Currently available configuration parameter list    </a></li>
+      </ul>
+    </li>
+    <li><strong>Chapter 9</strong>: <a href="#chapter_9_command_line_parameters" target="_self"><strong>Command line parameters</strong></a>
+<ul>
+        <li><a href="#command_line_parameters" target="_self">Currently available command line parameters</a></li>
+      </ul>
+    </li>
+  </ul>
+  <p class="UserManual_big">__________________________________
+  <p class="UserManual_big">User Manual<br />
+  <div class="UserManual_big" style="margin-top:-25px">__________________________________</div>
+  
+  <p class="UserManual"><strong>Chapter 1: </strong><a name="#chapter_1_introduction">Introduction to extDir</a></p>
+  <ul>
+  <li><strong><a name="about">About the utility</a></strong></li></ul>
+  <blockquote>
+    <p style="text-align: justify">This small freeware utility extends your Total Commander's directory creating capabilities - after installing it, you can create a bunch of <em>(even multi-leveled)</em> directories with a single click, with numerous possibilities...</p>
+    <p style="text-align: justify">In other words, it can be used to replace Total Commander's F7 &quot;Create Directory&quot; dialog with an enhanced one, with much more available features.</p>
+  </blockquote>
+
+  <ul style="margin-top:20px;">
+    <li><strong><a name="features">Main Features</a></strong>    
+      <ul style="font-size:12px; color:#0066FF; margin-left:-24px; margin-top:15px; list-style-type:square">
+        <li><span>Built-in installer &amp; uninstaller for easier usage</span></li>
+        <li><span>Normal, Extended &amp; Batch <em>(Decimal / Roman / ABC)</em> directory creation mode</span></li>
+        <li><span>Full integration to Total Commander <em>(F7, Shift + F7, or any key combination)</em></span></li>
+        <li><span>Multi-level directory creation <em>(create directories with more than one subdirs)</em></span></li>
+        <li><span>Templates: create directory using user templates <em>(e.g. &quot;New Dir (%D-%N-%y)&quot;)</em></span></li>
+        <li><span>Replacements: use environment variables <em>(like %USERNAME%)</em> in the name dirname</span></li>
+        <li><span>Basic &amp; special variables: use vars like %s <em>(current second)</em>, %h <em>(current hour)</em>, %x <em>(unix time)</em>, {pc} <em>(current PC name)</em> etc</span></li>
+        <li><span>Multi-language support:  English, Hungarian, Russian, Dutch, Spanish, German, Danish, Chinese, Ukrainian &amp; Korean language support <em>(built-in)</em></span></li>
+        <li><span>Intelligent selection: press Ctrl + Tab to select the next part of the dirname<br />
+          <em>(works in Normal mode &amp; for the manual path editor)</em></span></li>
+        <li><span>VirtualPanel (wfx) Total Commander plugin support</span></li>
+        <li><span>6 built-in window color themes &amp; the ability to create themes</span></li>
+        <li><span>Edit the current path manually <em>(by double-clicking on the path)</em></span></li>
+        <li><span>Configuration &amp; Template Manager dialogs</span></li>
+        <li><span>Enter directory after creation <em>(optional)</em></span></li>
+        <li><span>Close extDir after directory creation <em>(optional)</em></span></li>
+        <li><span>Undo function <em>(no more accidentally lost dirnames)</em></span></li>
+        <li><span>Control the utility by hotkeys</span></li>
+        <li><span>Live Replacements <em>(optional)</em></span></li>
+        <li><span>Drag &amp; Drop support</span></li>
+        <li><span><em>... and much more!</em></span></li>
+      </ul>
+    </li>
+  </ul>
+  
+  <ul style="margin-top:20px;">
+    <li><strong><a name="system_requirements">System Requirements</a></strong>
+      <div style="margin-top:20px">
+      <p>Total Commander:<strong style="color: #060"> 7.00+</strong><br />
+        <span style="font-style: italic; color: #333;">(heavily tested under Total Commander 7.56a, 7.57a & 8.0ß1-8.01)</span></p>
+      <p>Windows: <span style="color: #060"><strong>XP</strong></span><strong> <span style="color: #666">/</span> <span style="color: #060">Vista</span> <span style="color: #666">/</span> <span style="color: #060">7</span></strong><strong> <span style="color: #666">/</span><span style="color: #060"> 8</span></strong><br />
+        <em style="color: #333">(heavily tested under Windows 7 SP1 &amp; XP SP3) <span style="font-size: 11px; color: #666;">[may also work under Windows 2000]</span></em></p>
+  </div>
+    </li>
+  </ul>
+ 
+  
+ <p class="UserManual"><strong>Chapter 2: </strong><a name="#chapter_2_installation">Installation Guide</a></p>
+  
+ <ul style="margin-top:20px;">
+    <li><strong><a name="installation_important_notice">Important notice</a></strong>
+      <ul style="font-size:12px; color:#060; margin-left:-24px; margin-top:15px; list-style-type:square">
+        <li><span>You have to run the utility's executable file <em>(tc extDir.exe)</em> out of Total Commander's main directory, otherwise the installer won't show up.<br />
+            <br />
+        Example: 
+        <label for="run_directory"></label>
+        <input name="run_directory" type="text" id="run_directory" value="c:\Downloads\tc extDir.exe" size="24" maxlength="30" readonly="readonly" style="color:#060; font-family:Tahoma, Geneva, sans-serif; font-size:12px" />
+        <strong style="color: #060"></strong></span></li>
+      </ul>
+    </li>
+  </ul>
+  
+  <ul style="margin-top:20px;">
+    <li><strong><a name="installation_prerequisites">Other prerequisites</a></strong>
+      <ul style="font-size:12px; color:#0066FF; margin-left:-24px; margin-top:15px; list-style-type:square">
+        <li><span>Supported operating system <em>(check the list above)</em></span></li>
+        <li><span>Supported Total Commander version <em>(7.00+)</em></span></li>
+        <li><span>Read &amp; write access for Total Commander's base folder <em>(by default: c:\totalcmd)</em></span></li>
+        <li><span>Read &amp; write access for wincmd.ini file <em>(or the according configuration file)</em></span><br />[for installation]</li>
+        <li><span>Run the utility's installer with administrator rights if you want to be sure that every needed access is available</span></li>
+      </ul>
+    </li>
+  </ul>
+  
+  <ul style="margin-top:20px;">
+    <li><strong><a name="installation_automatic">Installation guide (automatic)</a></strong>
+      <p>After you start the utility's executable file <em>(out of Total Commander's directory)</em>, the installer  automatically opens. Generally theres no need to   configure anything, since it automatically selects the best settings depending on your Total Commander's language, however there are 3 things which you can manually modify: </p>
+      <ol>
+        <li style="color:#0066FF; margin-right:60px"><span>You can choose the language of extDir by clicking on the blinking blue arrow <em>(on the top) </em>then clicking on the name of the preferred language. Click on the arrow again to return to the general configuration page of the installer.</span></li>
+        <li style="color:#0066FF; margin-right:60px"><span>You can modify the name of the installation subfolder inside Total Commander's directory <em>(just click on the blue text under the disabled &quot;Install to Total Commander's main directory&quot; checkbox)</em>. You can use any executable &amp; any subdirectory name - it's totally your choice. The only thing which can't be modified is to install extDir <em>inside</em> Total Commander's directory.</span></li>
+        <li style="color:#0066FF; margin-right:60px""><span>You can set the activation hotkey: it's the hotkey, with which you can start the utility from Total Commander. By choosing Shift + F7 option a keyboard icon appears: you can set any  activation hotkey by clicking on this icon.</span></li>
+      </ol>
+    </li>
+  </ul>
+    <blockquote>
+      <p>You can start the installation by clicking on the &quot;Install&quot; button.</p>
+      <p>The utility will keep notifying you about the current progress of the installation until the end of the process.</p>
+      <p><u>Important</u>: at the start of the installation the utility  automatically tries to close the currently opened instance(s) of Total Commander. If it fails, the installation may won't be able to start until you manually closes all the opened instances of TC.</p>
+      <p><u>Good to know</u>: for security reasons the utility automatically creates a backup of your &quot;wincmd.ini&quot; file, which will be created in the same directory, with &quot;wincmd.old&quot; name.</p>
+    </blockquote>
+<ul style="margin-top:20px;">
+    <li><strong><a name="installation_manual">Installation guide (manual)</a></strong>
+      <p>Unzip the  previously downloaded &quot;tc extDir.exe&quot; to the Total Commander's folder <em>(you can put it in a subdir inside TC's folder, if you'd like to)</em>, then open Total Commander's Configuration/Options window, and add a new user command - which will be activated on F7 or Shift + F7 hotkey - with the name &quot;em_extDir&quot;, and point it to &quot;{the_path_to_your_totalcommander}\{extdir_subdirectory}\tc extDir.exe&quot;.</p>
+    </li>
+  </ul>
+<p class="UserManual"><strong>Chapter 3: </strong><a name="#chapter_3_basic_functions">Basic Functions (Normal mode)</a></p>
+  <ul><li><strong><a name="create_a_single_directory">Create a single directory</a></strong></li></ul>
+  <blockquote>
+    <p style="text-align: justify">After starting extDir <em>(pressing the activation hotkey in Total Commander)</em> the utility's <strong>Normal mode</strong> is what you see <em>(if you haven't changed it in the configuration file manually).</em></p>
+    <p style="text-align: justify">The utility automatically detects the currently selected file / directory in Total Commander <em>(if nothing is selected, it detects the file under cursor)</em>, and sets the directory edit control's text to this string. You can type in <em>(or paste)</em> any directory name into this control. You can create the directory by pressing Enter, or by clicking on the OK button.</p>
+    <p style="text-align: justify"><strong>Note</strong>: You will see &quot;Enter&quot; button instead of &quot;OK&quot; in case the directory already exists in the current path - this way when you press the button or click on it, the utility will make Total Commander enter to this directory instead of trying to create it.</p>
+  </blockquote>
+  
+   <ul><li style="margin-top:30px"><strong><a name="create_a_single_directory_with_subdirs">Create a single directory with subdirectories</a></strong></li></ul>
+  <blockquote>
+    <p style="text-align: justify">You can  also create directory / directories with one, or more than one subdirectories. Let's see an example:</p>
+    <table width="450" border="1" align="center" cellpadding="4" frame="box" rules="none" style="background-color:#1B8DEB; color:#FFFFFF; border-style:dashed">
+      <tr>
+        <td width="98">Initial path:</td>
+        <td width="347">d:\Install\Programs\</td>
+      </tr>
+      <tr>
+        <td>Directory string:</td>
+        <td><strong>File managers\Total Commander\8.x</strong></td>
+      </tr>
+      <tr>
+        <td><u>Result</u>:</td>
+        <td>d:\Install\Programs\File managers</td>
+      </tr>
+      <tr>
+        <td rowspan="2">&nbsp;</td>
+        <td>d:\Install\Programs\File managers\Total Commander</td>
+      </tr>
+      <tr>
+        <td>d:\Install\Programs\File managers\Total Commander\8.x</td>
+      </tr>
+    </table>
+    <p>That's not a hard one though, and by the way Total Commander is also capable of doing the same thing using the internal F7 &quot;New Folder&quot; dialog. </p>
+    <p>Let's check the same with <u>more than one subdirectories</u> per subdirs:</p>
+    <table width="450" border="1" align="center" cellpadding="4" frame="box" rules="none" style="background-color:#146BCB; color:#FFFFFF; border-style:dashed; text-align:left">
+      <tr>
+        <td width="93">Initial path:</td>
+        <td width="323">d:\Install\</td>
+      </tr>
+      <tr>
+        <td>Directory string:</td>
+        <td><strong>Programs\Audio players* Winamp\2.x\Installer* Winamp\5.x\Installer* AIMP* foobar2000</strong></td>
+      </tr>
+      <tr>
+        <td><u>Result</u>:</td>
+        <td>d:\Install\Programs\Audio players</td>
+      </tr>
+      <tr>
+        <td rowspan="7">&nbsp;</td>
+        <td>d:\Install\Programs\Audio players\Winamp</td>
+      </tr>
+      <tr>
+        <td>d:\Install\Programs\Audio players\Winamp\2.x</td>
+      </tr>
+      <tr>
+        <td>d:\Install\Programs\Audio players\Winamp\2.x\Installer</td>
+      </tr>
+      <tr>
+        <td>d:\Install\Programs\Audio players\Winamp\5.x</td>
+      </tr>
+      <tr>
+        <td>d:\Install\Programs\Audio players\Winamp\5.x\Installer</td>
+      </tr>
+      <tr>
+        <td>d:\Install\Programs\Audio players\AIMP</td>
+      </tr>
+      <tr>
+        <td>d:\Install\Programs\Audio players\foobar2000</td>
+      </tr>
+    </table>
+    <p style="text-align: justify">Maybe the directory string looks a bit complicated for the first look, but it isn't at all: after you copied the string to the directory edit combobox <em>(in Normal mode)</em>, just click on the Extended button in the utility <em>(or press F7 inside extDir)</em>, and you will understand how does it works.</p>
+    <p style="text-align: justify">The main pont is: every <strong>*</strong> means a unique subdirectory.    </p>
+    <p style="text-align: justify"><strong style="color: #060"><u>Important</u>:</strong> Please note that this is just a small example to show you how to create multiple subdirectories in Normal mode - it is highly recommended to use the Extended mode of the utility for such situations, where you can give the data in list format.  </p>
+  </blockquote>
+  
+   <ul><li style="margin-top:30px"><strong><a name="create_multiple_dirs_with_separator">Create multiple directories with separator</a></strong></li></ul>
+  <blockquote>
+    <p style="text-align: justify">Okay, let's check another example with <strong>|</strong> separators (each | separator is equal to an enter character in Extended mode):    </p>
+    <table width="450" border="1" align="center" cellpadding="4" frame="box" rules="none" style="background-color:#1B8DEB; color:#FFFFFF; border-style:dashed">
+      <tr>
+        <td width="98">Initial path:</td>
+        <td width="347">c:\</td>
+      </tr>
+      <tr>
+        <td>Directory string:</td>
+        <td><strong>Backup\2k11\Test|Movies|Software\Freeware</strong></td>
+      </tr>
+      <tr>
+        <td><u>Result</u>:</td>
+        <td>d:\Install\Programs\File managers</td>
+      </tr>
+      <tr>
+        <td rowspan="2">&nbsp;</td>
+        <td>d:\Install\Programs\File managers\Total Commander</td>
+      </tr>
+      <tr>
+        <td>d:\Install\Programs\File managers\Total Commander\8.x</td>
+      </tr>
+    </table>
+    <p><strong style="color: #F00"><u>Important</u>:</strong> Please note that at the time of writing  this documentation extDir doesn't supports  creating more than one subdirectories (<strong>*</strong>) along with separators  in Normal mode. You can use Extended mode in such cases.
+</p></blockquote>
+
+
+   <ul>
+     <li style="margin-top:30px"><strong><a name="templates_and_replacements">Templates and Replacements (variables)</a></strong></li></ul>
+  <blockquote>
+    <p style="text-align: justify">One of the main features of extDir is that you can use any variable in the name of your directory / directories. You can also create templates containing your most-used variables - this way you can access them by a single click / keypress.</p>
+    <p style="text-align: justify">Currently there are 4 categories of variables:</p>
+    <ul>
+      <li>Date</li>
+      <li>System</li>
+      <li>Applications</li>
+      <li>Env. variables</li>
+    </ul>
+    <p>You can always check the list of the variables by clicking on the <strong>+</strong> button on the top-right corner of extDir's window, or by pressing Ctrl + H.</p>
+    <p style="text-align: justify"><u>What is a variable (replacement) good for?</u></p>
+    <p style="text-align: justify">It can be used for many things. For example you're often working on different computers, and you need to create folders which contains the  name of the current PC many times a day.</p>
+    <p style="text-align: justify">By default you can only reach it  by typing in <em>(or pasting from clipboard)</em> the name of the current PC, which is not a quick job <em>(especially for names like &quot;P4-S1_Z9X97BNAS&quot;)</em>.</p>
+    <p style="text-align: justify">In  <strong>extDir</strong> you can simply press Ctrl + M (or click on Options / Manage templates), then type in the following, and press Apply:</p>
+    <table width="450" border="1" align="center" cellpadding="4" frame="box" rules="none" style="background-color:#FFF; color:#000; border-style:dashed">
+      <tr>
+        <td width="80">Template:</td>
+        <td width="336"><span style="text-align: justify"><strong>{pc} - {un}'s folder</strong></span></td>
+      </tr>
+      <tr>
+        <td>Name:</td>
+        <td><strong style="color: #F60">O</strong>S and username <em>(or anything you prefer)</em></td>
+      </tr>
+      <tr>
+        <td>Result:</td>
+        <td>BLUESTAR-NB\Bluestar's folder</td>
+      </tr>
+    </table>
+    <p>Then you can access the newly created template - which contains the most used variables - by clicking on the template combobox (bottom of extDir's main window), or by pressing the Ctrl + T hotkey.</p>
+    <p>When the list is in dropdown state (or  focused), you can simply press the keyboard button which is equal to the first alphabet of your template's name: in the example above it is<strong style="color: #F60"> O</strong>. This case you don't even need to click on a template, it will be  activated by a single keypress.</p>
+  </blockquote>
+  
+   <ul>
+     <li style="margin-top:30px"><strong><a name="modifiers">Modifiers (space2Dot and its invert, changeCase, etc.)</a></strong></li></ul>
+  <blockquote>
+    <p style="text-align: justify">You can currently use 3 type of modifiers - as it's name says, each one of them will modify the selected part of the directory string (in case there's no selection, then the whole string).</p>
+    <p style="text-align: justify">The 3 modifiers are:</p>
+    <ul>
+      <li>Space to Dot (Ctrl + 1)</li>
+      <li>Dot to Space (Ctrl + 2)</li>
+      <li>Invert Case (Ctrl + 3)</li>
+    </ul>
+  </blockquote>
+  <ol>
+    <li><em>Space to Dot</em></li>
+  </ol>
+  <blockquote>
+    <p>	Replaces the &quot; &quot; <em>(space)</em> characters inside the selected text to &quot;.&quot; <em>(dot)</em>.<br />
+    </p>
+    <p><strong style="color: #060">Please note</strong>: <em>IntelliModifiers</em> feature is activated by default - that means not all of the characters will be replaced to its replacement, only which is between two other (non-space) characters. You can click here to check how to deactivate this feature.</p>
+    <p><strong>Example 1</strong>: It is the name of a directory  <span style="color: #06F">&#8212;&#8250;</span> It.is.the.name.of.a.directory<br />
+      <strong>Example 2</strong>: It  is  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;another directory <span style="color: #06F">&#8212;&#8250;</span> It.is  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;another.directory</p>
+  </blockquote>
+  <ol start="2">
+    <li><u>Dot to Space</u></li>
+  </ol>
+  <blockquote>
+    <p>Replaces the &quot;.&quot; <em>(dot)</em> characters inside the selected text to<br />  
+      &quot; &quot; <em>(space)</em>.<br />
+    </p>
+    <p>The same note applices to Dot to Space modifer (<em>IntelliModifiers</em> active).</p>
+  </blockquote>
+  
+  <ol start="3">
+    <li><u>Invert Case</u></li>
+  </ol>
+  <blockquote>
+    <p>Inverts the currently selected text's case.</p>
+    <p><strong>Example</strong>: DIRNAME with LeTtErS <span style="color: #06F">&#8212;&#8250;</span> dirname WITH lEtTeRs<br />
+    </p>
+    <p>The same note applices to Dot to Space modifer (<em>IntelliModifiers</em> active).</p>
+  </blockquote>
+
+   <ul>
+     <li style="margin-top:30px"><strong><a name="attributes">Setting the directory's attributes</a></strong></li></ul>
+  <blockquote>
+    <p style="text-align: justify">You can also set the directory's attributes in the utility. Just click on the small grey triangle on the top-left section <em>- next to the &quot;New folder (directory)&quot; </em>text -, or press Ctrl + Q for the attributes popup.</p>
+    <p style="text-align: justify">If you prefer to manually type in the needed attributes, you can press<br />
+    Ctrl + Shift + Q, then type in one (or all) of the <strong style="color: #060">r a h s</strong> letters.</p>
+    <p><strong>Note: </strong>setting the directory attributes will fail in case the current  path is unavailable, and the utility has to create it. This behavior may change in future versions.</p>
+  </blockquote>
+
+   <ul>
+     <li style="margin-top:30px"><strong><a name="additional_options">Additional options</a></strong></li></ul>
+  <blockquote>
+    <p style="text-align: justify"><div style="color: #03F">
+      <input type="checkbox" name="enablereplacements" id="enablereplacements" />
+      <label for="enablereplacements"></label>
+      Enable replacements</div> 
+    This option is <em>automatically</em> activated in case the directory string contains one or more variables / replacements. You can untick the checkbox if you don't want to activate replacements for the current session (this way it won't be automatically rechecked for the session if you type in variables).</p>
+    <p style="text-align: justify"><div style="color: #03F">
+      <input type="checkbox" name="enterdir" id="enterdir" />
+      Enter directory after creation</div> 
+    In case its checked, Total Commander will automatically enter to the directory after creation. The option is disabled in case you're creating more than one directories in Extended mode.</p>
+    <p style="text-align: justify"><div style="color: #03F">
+      <input name="closewnd" type="checkbox" id="closewnd" checked="checked" />
+      Close the window after creation</div> 
+    If this option is checked, extDir will be closed after successful directory creation. You can uncheck it if you'd like to create more directories at once.</p>
+  </blockquote>
+  
+ 
+  <p class="UserManual"><strong>Chapter 4: </strong><a name="#chapter_4_extended_mode">Extended Functions (Extended mode)</a></p>
+  <ul>
+  <li><strong><a name="#createmultipledir">Create multiple directories</a></strong></li></ul>
+  <blockquote>
+    <p style="text-align: justify">You can switch to Extended mode anytime you wish by pressing F7 inside extDir (or by pressing F3).</p>
+    <div style="margin-top:20px">      </div>
+  </blockquote>
+
+
+</div>
+</body>
+</html>

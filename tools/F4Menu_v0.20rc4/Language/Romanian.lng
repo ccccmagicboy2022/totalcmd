@@ -1,0 +1,93 @@
+Limba Românã
+; Pentru F4Menu ver 0.10
+; Creat de Eugen ANTAL (2007-09-09)
+
+; Nume Limbaj & Cuvinte comune
+0=DA
+1=Nu
+2=&OK
+3=&Abandon
+4=&Aplicã
+5=Închide
+6=Nume
+7=Cale
+8=Parametri
+9=Mod
+10=Extensii
+11=Iconniþe
+
+13=Executare fiºiere
+14=Toate fiºierele
+; Meniu principal
+15=Alt Program...
+16=Setãri...
+17=Despre F4Menu...
+
+; Meniu Contextual
+20=&Asociazã extensia ºi Deschide
+21=&Deschide fãrã asociere extensie
+22=&Seteazã Editorul ca Implicit
+23=&Disociazã
+24=&Eliminã
+25=&Modificã...
+26=Sorteazã dupã &Nume
+
+; Dialog Modificare
+30=Modificare Editor F4Menu
+31=&Nume
+32=&Cale
+33=Para&metri
+34=&Mod deschidere
+35=&Extensii
+36=&Iconiþe
+37=0 - Deschide fiecare fiºier individual
+38=1 - Deschide toate fiºierele ca listã
+
+; Dialog setãri
+40=Setãri F4Menu 
+41=O&pþiuni
+42=&Adãugare
+43=&Modificare
+44=&Eliminare
+45=Fiºier
+46=Listã
+
+; Dialog Despre...
+47=Despre F4Menu
+
+; Dialog Opþiuni
+50=Opþiuni F4Menu
+51=&Despre
+52=&Limbaj
+53=Numãr &Maxim de fiºiere deschise (0-31)
+54=Meniul &Selectare va apare la poziþia...
+55=Fiºier curent
+56=Cursor Mouse
+57=Aratã &bula info în meniul selectare
+58=Mod rulare <-> Cheia (tasta) de activare
+59=Mod &Prim Plan - totdeauna aratã meniul selectare
+60=Mod &Fundal    - aratã meniul numai dacã este necesar
+61=Acþiuni ce anuleazã meniul selectare
+62=&Stop ºi deschide fiºierele &procesate
+63=S&top ºi anuleazã toate selecþiile
+64=S&are fiºierul curent ºi continuã cu urmãtorul
+
+; Bule info
+70=Deschide fiºierul cu aplicaþia sistem asociatã
+71=Editor implicit
+72=Ctrl + Enter/Click pentru asociere ºi Deschide\nEnter/Click pentru deschidere fãrã asociere
+73=SPAÞIU pentru deschidere cu primul editor potrivit
+74=Drag && drop (trage ºi lasã) pentru mutare element
+75=Click dreapta pentru meniu contextual
+76=Alege un alt program pentru aceastã extensie
+
+; Mesaje
+;80=Vã rugãm utilizaþi tasta F4 în Total Commander pentru lansarea programului F4Menu.\n\nAcesta se poate seta prin Configuraþie -> Opþiuni -> Editare/Vizualizare -> Editor asociat tastei F4.
+81=Vã rugãm selectaþi un element din meniu.
+82=Chiar doriþi sã ºtergeþi acest element?
+83=Chiar doriþi sã ºtergeþi aceste %d elemente?
+84=Vã rog verificaþi numele editorului.
+85=Nu se poate localiza editorul specificat, verificaþi vã tog calea.
+86=Prea multe fiºiere selectate. Se vor deschide doar primele %d fiºiere.
+87=Nu se poate localiza editorul %d "%s", \n\nvã rog alegeþi un alt editor pentru fiºierele "*.%s"
+88=Editorul "%s" existã deja.\nDoriþi sã actualizaþi configuraþia actualã?\n\nDA - pentru încãrcare ºi actualizare element.\nNU - pentru crearea unui nou element cu o cale identicã.

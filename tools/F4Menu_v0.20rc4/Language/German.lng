@@ -1,0 +1,116 @@
+Deutsch
+;*** für F4Menu 0.150 RC1
+;*** Datum: 2007-10-02
+;*** Übersetzer: Icfu
+;*** E-Mail: mailto:icfu@gmx.de
+;*** Homepage: http://icfu.totalcmd.net/
+
+;*** Gemeinsame Ausdrücke
+0=Ja
+1=Nein
+2=OK
+3=Abbrechen
+4=&Anwenden
+5=Schließen
+6=Name
+7=Dateipfad
+8=Parameter
+9=Öffnungsmodus
+10=Erweiterungen
+11=Icon
+12=Fensterstatus
+13=Ausführbare Dateien
+14=Alle Dateien
+
+;*** Hauptmenü
+15=Anderes Programm...
+16=Einstellungen...
+17=Über F4Menu for TC...
+
+;*** Gemeinsame Ausdrücke 2
+18=Startpfad
+
+;*** Kontextmenü
+20=&Öffnen und verknüpfen
+21=&Nur öffnen
+22=&Als Standardeditor setzen
+23=&Trennen
+24=&Löschen
+25=&Bearbeiten...
+26=&Sortieren nach Name
+
+;*** Änderungsdialog
+30=F4Menu: Editor bearbeiten
+31=&Name
+32=&Dateipfad
+33=&Parameter
+34=&Öffnungsmodus
+35=&Erweiterungen
+36=&Icon
+37=0 - Jede Datei separat öffnen
+38=1 - Alle Dateien als Liste öffnen
+39=&Startpfad
+
+;*** Einstellungsdialog
+40=F4Menu: Einstellungen
+41=&Optionen
+42=&Hinzufügen
+43=&Bearbeiten
+44=&Löschen
+45=Datei
+46=Liste
+
+;*** Über-Dialog
+47=Über F4Menu
+
+;*** Optionsdialog
+50=F4Menu: Optionen
+51=Ü&ber...
+52=&Sprache
+53=&Maximalanzahl zu öffnender Dateien (0-31)
+54=&Auswahlmenü öffnet sich
+55=nahe der aktuellen Datei
+56=am Mauszeiger
+57=&Tooltips im Auswahlmenü zeigen
+58=Ausführungsmodus <-> Hotkey
+59=&Vordergrundmodus (Auswahlmenü immer anzeigen)
+60=&Hintergrundmodus (Auswahlmenü nur anzeigen, falls nötig)
+61=Aktion beim Abbrechen des Auswahlmenüs
+62=&öffnen aller abgearbeiteten Dateien und Menü schließen
+63=&Getroffene Auswahl verwerfen und Menü schließen
+64=&Überspringen der aktuellen Datei und mit der nächsten fortfahren
+65=&Deselektieren der Dateiauswahl nach Schließen des Menüs
+66=Nur Tooltips
+67=Nur Editorinfo
+68=Tooltips und Editorinfo
+
+;*** Tooltips
+70=Mit systemweit verknüpfter Standardanwendung öffnen
+71=Standardeditor
+72=Strg + Enter/Klick zum Öffnen und Verknüpfen\nEnter/Klick zum alleinigen Öffnen
+73=Leertaste zum Öffnen mit dem ersten passenden Editor
+74=Ziehen und Fallenlassen zum Bewegen eines Eintrags
+75=Rechtsklick zum Anzeigen des Kontextmenüs
+76=Neues Programm für diese Erweiterung auswählen
+
+;*** Nachrichten
+;80=Bitte "Total Commander"-Hotkey F4 nutzen zum Starten von F4Menu!\n\nEinstellen unter Konfigurieren -> Einstellungen -> Viewer/Editor -> Editor für F4!
+81=Bitte einen Eintrag auswählen!
+82=Den selektierten Eintrag wirklich löschen?
+83=Die %d selektierten Einträge wirklich löschen?
+84=Bitte Editor-Namen überprüfen!
+85=Kann den ausgewählten Editor nicht finden, bitte den Dateipfad überprüfen!
+86=Zu viele Dateien selektiert, nur die ersten %d werden geöffnet!
+87=Kann den Editor %d "%s" nicht finden, \n\nBitte einen neuen Editor für "*.%s"-Dateien auswählen!
+88=Der Editor "%s" existiert bereits!\nSoll seine existierende Konfiguration aktualisiert werden?\n\nJa zum Laden und Aktualisieren des existierenden Eintrags!\nNein zum Erstellen eines neuen Eintrags mit identischem Dateipfad!
+
+;*** Änderungsdialog 2
+90=&Fensterstatus
+91=0 - Normal
+92=1 - Maximiert
+93=2 - Minimiert
+
+;*** Optionsdialog 2
+100=rechtsseitig angedockt
+101=im Zielpaneel angedockt
+102=in der Fenstermitte

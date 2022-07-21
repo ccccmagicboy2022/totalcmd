@@ -1,0 +1,116 @@
+Polski
+; For F4Menu ver 0.15
+; Creator/Translator: Shanny (shannycn@gmail.com)
+; Date: 2007-10-01
+; Polish translation: dong
+; Date: 2007-10-03
+
+;Common words
+0=Tak
+1=Nie
+2=OK
+3=Anuluj
+4=&Zastosuj
+5=Zamknij
+6=Nazwa
+7=Œcie¿ka
+8=Parametry
+9=Tryb
+10=Rozszerzenia
+11=Ikona
+12=Okno
+13=Pliki wykonywalne
+14=Wszystkie pliki
+
+; Main Menu
+15=I&nny program...
+16=&Ustawienia...
+17=&O programie F4Menu...
+
+; Common words 2
+18=Œcie¿ka pocz¹tkowa
+
+; Context Menu
+20=Skojarz i &otwórz
+21=&Tylko otwórz
+22=Ustaw jako edytor &domyœlny
+23=Usuñ &skojarzenie
+24=&Usuñ
+25=&Modyfikuj...
+26=Sortuj wed³ug &nazwy
+
+; Modify Dialog
+30=Modyfikacja edytora F4Menu
+31=&Nazwa
+32=Œ&cie¿ka
+33=&Parametry
+34=&Tryb otwierania
+35=&Rozszerzenia
+36=&Ikony
+37=0 - Otwórz ka¿dy plik oddzielnie
+38=1 - Otwórz wszystkie pliki jako listê
+39=Œci&e¿ka pocz¹tk
+
+; Settings Dialog
+40=Ustawienia F4Menu
+41=&Opcje
+42=&Dodaj
+43=&Modyfikuj
+44=&Usuñ
+45=Plik
+46=Lista
+
+; About Dialog
+47=O programie F4Menu
+
+; Options Dialog
+50=Opcje F4Menu
+51=O programi&e
+52=&Jêzyk
+53=&Maksymalna liczba otwieranych plików (0-31)
+54=Menu wybierania pojawia siê &nad pozycj¹
+55=Aktualnego pliku
+56=Kursora myszki
+57=&Poka¿ podpowiedzi do menu wybierania
+58=Tryb uruchamiania <-> Klawisz skrótu
+59=Tryb pierwszego planu (&zawsze pokazuje menu wybierania)
+60=&Tryb t³a (pokazuje tylko, je¿eli jest to konieczne)
+61=Dzia³anie po anulowaniu otwarcia zaznaczonego pliku (klawisz: ESC) z menu wybierania
+62=Przer&wij i otwórz przetworzone pliki
+63=Przerwij i an&uluj otwarcie wszystkich zazanaczonych plików
+64=Pomiñ a&ktualny plik i kontynuuj nastêpny
+65=O&dznacz otwierane pliki
+66=Tylko podpowiedzi
+67=Tylko informacje edytora
+68=Podpowiedzi i info edytora
+
+; ToolTips
+70=Otwiera programem skojarzonym przez system
+71=Edytor domyœlny
+72=Ctrl + Enter/Klikniêcie: skojarz i otwórz\nEnter/Klikniêcie: tylko otwórz
+73=Spacja: otwórz pierwszym skojarzonym edytorem
+74=Przeci¹gnij i opuœæ, by przesun¹æ pozycjê
+75=Kliknij prawym przyciskiem myszki, by zobaczyæ menu kontekstowe
+76=Wybiera nowy program dla tego rozszerzenia
+
+; Messages
+;80=By uruchomiæ F4Menu, proszê u¿yæ klawisz skrótu 'F4'.\n\nMo¿esz ustawiæ go, wybieraj¹c w programie Total Commander: Konfiguracja -> Opcje -> Podgl¹d/Edycja -> Edytor dla F4.
+81=Proszê zaznaczyæ pozycjê.
+82=Czy na pewno chcesz usun¹æ zaznaczon¹ pozycjê?
+83=Liczba wybranych pozycji: %d. Czy na pewno chcesz usun¹æ wszystkie zaznaczone pozycje?
+84=Proszê sprawdziæ nazwê edytora.
+85=Nie mo¿na znaleŸæ okreœlonego edytora, proszê sprawdziæ œcie¿kê dostêpu.
+86=Zaznaczono zbyt du¿o plików, tylko %d pierwszych plików zostanie otwartych.
+87=Nie mo¿na znaleŸæ edytora %d "%s", \n\nproszê wybraæ nowy edytor dla plików z rozszerzeniem "*.%s".
+88=Edytor "%s" ju¿ istnieje.\nCzy chcesz uaktualniæ istniej¹c¹ konfiguracjê?\n\nWybranie przycisku 'Tak' spowoduje za³adowanie i uaktualnienie istniej¹cej pozycji\nWybranie przycisku 'Nie' spowoduje utworzenie nowej pozycji z tak¹ sam¹ œcie¿k¹ dostêpu.
+
+; Modify Dialog 2
+90=&Okno
+91=0 - Normalne
+92=1 - Maksymalizuj
+93=2 - Minimalizuj
+
+; Option Dialog 2
+100=Z prawej strony aktual. pliku
+101=Przeciwleg³ego panelu
+102=Œrodka okna
